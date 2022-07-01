@@ -3,13 +3,13 @@
 Arpak - A package manager for Arch Linux based distros with APT-like syntax!
 
 Basic features:
-- install: install a package
+- install: install/upgrade a package
 - localinstall: install a local package
 - remove: remove a package
 - search: search for a package
 - update: update all repos
 - list: list all installed packages
-- upgrade: upgrade a package
+- upgrade: upgrade all packages that can be upgraded
 
 Compiling:
 To compile arpak, you must use pyinstaller. To get started, run the following command:
