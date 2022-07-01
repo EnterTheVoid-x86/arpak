@@ -24,6 +24,7 @@ try:
         print("update: Update the package list")
         print("list: List all packages")
         print("search: Search for a package")
+        print("upgrade: Upgrade a package")
         print("")
         print("Usage example:")
         print("arpak install nodejs")
@@ -69,6 +70,15 @@ try:
             os.system("sudo pacman -U " + sys.argv[2])
         else:
             os.system("pacman -U " + sys.argv[2])
+    elif sys.argv[1] == "upgrade":
+        print("Upgrading " + sys.argv[2])
+        # check if user is root
+        if os.geteuid() != 0:
+            root = False
+        if root == False:
+            os.system("sudo pacman -Syu " + sys.argv[2])
+        else:
+            os.system("pacman -Syu" + sys.argv[2])
     else:
         print("Arpak - Invalid argument")
         print("Use --help for more information")
