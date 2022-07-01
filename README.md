@@ -9,6 +9,7 @@ Basic features:
 - search: search for a package
 - update: update all repos
 - list: list all installed packages
+- upgrade: upgrade a package
 
 Compiling:
 To compile arpak, you must use pyinstaller. To get started, run the following command:
