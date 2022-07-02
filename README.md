@@ -1,5 +1,5 @@
 # arpak
-[NOTE] This repo is not where mainline arpak is hosted. If you'd like, you may goto https://github.com/archimax/arpak/ for upstream source.
+[NOTE] This repo is not where mainline arpak is hosted. If you'd like, you may goto https://github.com/archimaxlinux/arpak/ for upstream source.
 Arpak - A package manager for Arch Linux based distros with APT-like syntax!
 
 Basic features:
